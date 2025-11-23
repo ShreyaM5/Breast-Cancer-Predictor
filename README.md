@@ -6,15 +6,15 @@ This project is a Streamlit-based web application that predicts whether a breast
 The model is built on selected diagnostic features from the Breast Cancer Wisconsin Dataset (UCI).
 
 **Features**
---User-friendly web interface
---Input-based prediction of tumor type
---Shows malignant probability
---Visualizations such as accuracy plot & confusion matrix
---Deployed using Streamlit Cloud
+-User-friendly web interface
+-Input-based prediction of tumor type
+-Shows malignant probability
+-Visualizations such as accuracy plot & confusion matrix
+-Deployed using Streamlit Cloud
 
 **Tech Stack**
---Python
---Streamlit
---Scikit-learn
---Pandas, NumPy
---Matplotlib / Seaborn
+-Python
+-Streamlit
+-Scikit-learn
+-Pandas, NumPy
+-Matplotlib / Seaborn
