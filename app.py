@@ -4,6 +4,12 @@ import pickle
 import numpy as np
 import pandas as pd
 
+import os
+
+st.write("Current working directory:", os.getcwd())
+st.write("Files in this folder:", os.listdir())
+
+
 # Try to import fancy nav; if missing, we'll use a simple sidebar radio
 try:
     from streamlit_option_menu import option_menu
@@ -366,3 +372,4 @@ elif selected == "Disclaimer":
 
 st.write("---")
 st.markdown("Built with ❤️ • OncoPlus")
+
